@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-[#f1f4f79e]">
+    <!-- Header -->
+    <header class="flex flex-row justify-between items-center border-b-2 p-8">
+        <!-- Logo -->
+        <div class="logo flex flex-row justify-center items-center gap-2 ">
+            <div
+                class="logoCircle w-[45px] h-[45px] bg-[#19162e] flex flex-row justify-center items-center rounded-full text-white text-xl">
+                UI</div>
+            <h2 class="text-[#19162e] text-2xl">Design Daily</h2>
+        </div>
+
+        <!-- Menu -->
+        <nav>
+            <ul class="flex flex-row justify-center items-center gap-2">
+                <li><a href="#"
+                        class="px-5 transition-all py-2 text-center text-[#19162e] rounded-full bg-[#42426e51] hover:text-[#3a3a6d6e]">Free
+                        designs</a></li>
+                <li><a href="#"
+                        class="text-[#3a3a6d6e] transition-all hover:text-[#19162e] px-5 py-2 text-center rounded-full hover:bg-[#42426e51]">License</a>
+                </li>
+                <li><a href="#"
+                        class="text-[#3a3a6d6e] transition-all hover:text-[#19162e] px-5 py-2 text-center rounded-full hover:bg-[#42426e51]">Articles</a>
+                </li>
+                <li><a href="#"
+                        class="text-[#3a3a6d6e] transition-all hover:text-[#19162e] px-5 py-2 text-center rounded-full hover:bg-[#42426e51]">Contributors</a>
+                </li>
+                <li><a href="#"
+                        class="text-[#3a3a6d6e] transition-all hover:text-[#19162e] px-5 py-2 text-center rounded-full hover:bg-[#42426e51]">About</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Login Sign up -->
+        <div class="flex flex-row justify-center items-center gap-5">
+            <button class=" text-[#19162e] font-bold">Log in</button>
+            <button
+                class=" text-[#fff] transition-all font-bold px-5 py-4 bg-[#19162e] rounded-lg hover:bg-[#19162ec2]">Sign
+                Up</button>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="flex flex-col justify-center items-center">
+        <div class="w-full p-5">
+            <button class="text-[#fa7e7e] transition-all font-bold px-5 py-4 bg-[#fff] rounded-lg">Day 1384</button>
+        </div>
+        <!-- Welcome -->
+        <div class="flex flex-col justify-center items-center gap-5">
+            <h2 class="text[#19162e] text-2xl font-bold">Free UI resources for everyone</h2>
+            <p class="text-center text[#19162e] font-semibold">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatem <br> non laudantium eius debitis, temporibus modi rerum magnam.</p>
+        </div>
+
+        <!-- Input -->
+        <div
+            class="flex flex-row justify-center items-center gap-5 shadow-lg border-b-2 h-[80px] px-10 py-2 bg-white mt-10 rounded-lg">
+            <div class=" p-2 border-r-2">
+                <div class="dropdown inline-block relative ">
+                    <button class="text-gray-700 font-semibold rounded inline-flex items-center">
+                        <span class="mr-1">Free designs</span>
+                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                        </svg>
+                    </button>
+                    <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
+                        <li class=""><a
+                                class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                href="#">One</a></li>
+                        <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                href="#">Two</a></li>
+                        <li class=""><a
+                                class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                href="#">Three</a></li>
+                        <li class=""><a
+                                class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                href="#">Four</a></li>
+                        <li class=""><a
+                                class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                href="#">Five</a></li>
+                        <li class=""><a
+                                class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                href="#">Six</a></li>
+                    </ul>
+                </div>
+            </div>
+            <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
+
+            <input type="text" class="outline-0 w-300px p-2" placeholder="Search">
+        </div>
+
+        <div class="w-full flex flex-row justify-between items-center bg-white mt-[40px] p-2 mb-[50px]">
+            <div
+                class="w-[182px] h-[50px] flex flex-row justify-between items-center rounded-full border-2 gap-2 bg-[#f1f4f79e] p-2">
+                <button class="rounded-full bg-white px-4 py-2">Laster</button>
+                <button class="text-[#19162ec2]">Popular</button>
+            </div>
+
+            <div class="flex flex-row bg-white gap-5 mt-[40px] p-5">
+                <button
+                    class="flex flex-row justify-between items-center rounded-full border-2 gap-2 bg-[#f1f4f79e] p-2 px-4">
+                    All</button>
+                <button
+                    class="flex flex-row justify-between items-center rounded-full gap-2 hover:bg-[#f1f4f79e] p-2 px-4">
+                    Web</button>
+                <button
+                    class="flex flex-row justify-between items-center rounded-full gap-2 hover:bg-[#f1f4f79e] p-2 px-4">
+                    Mobil</button>
+                <button
+                    class="flex flex-row justify-between items-center rounded-full gap-2 hover:bg-[#f1f4f79e] p-2 px-4">
+                    UI Kit</button>
+                <button
+                    class="flex flex-row justify-between items-center rounded-full gap-2 hover:bg-[#f1f4f79e] p-2 px-4">
+                    Coded</button>
+            </div>
+
+            <img src="./asssets/images/logos.png" alt="">
+        </div>
+
+        <div class="flex flex-row flex-wrap gap-5 mt-30px">
+            <div class="flex flex-col">
+                <div class="w-[300px] h-[200px] bg-[#000] rounded-lg">
+                    <div class="rounded-full bg-white w-[45px] h-[45px] mt-5 ml-5"></div>
+                </div>
+                <div class="cardHeader flex flex-row justify-start items-center gap-5 mt-5">
+                    <div class="rounded-full bg-[#00ff00] w-[45px] h-[45px]"></div>
+                    <h2>by <strong>Jenny Molla</strong></h2>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="w-[300px] h-[200px] bg-[#000] rounded-lg">
+                    <div class="rounded-full bg-white w-[45px] h-[45px] mt-5 ml-5"></div>
+                </div>
+                <div class="cardHeader flex flex-row justify-start items-center gap-5 mt-5">
+                    <div class="rounded-full bg-[#00ff00] w-[45px] h-[45px]"></div>
+                    <h2>by <strong>Jenny Molla</strong></h2>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="w-[300px] h-[200px] bg-[#000] rounded-lg">
+                    <div class="rounded-full bg-white w-[45px] h-[45px] mt-5 ml-5"></div>
+                </div>
+                <div class="cardHeader flex flex-row justify-start items-center gap-5 mt-5">
+                    <div class="rounded-full bg-[#00ff00] w-[45px] h-[45px]"></div>
+                    <h2>by <strong>Jenny Molla</strong></h2>
+                </div>
+            </div>
+            
+        </div>
+
+
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
